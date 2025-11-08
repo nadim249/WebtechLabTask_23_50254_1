@@ -1,0 +1,56 @@
+body {
+  background-color: aliceblue;
+}
+
+form {
+  margin-left: 25%;
+}
+
+.td1 {
+  text-align: right;
+}
+
+.label-title {
+  font-weight: bold;
+}
+
+.sp-star{
+    color: rgb(229, 6, 6);
+    font-size: large;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h2 {
+  color: red;
+}
+
+span {
+  font-size: x-small;
+}
+
+.cm-sp {
+  font-size: medium;
+}
+.buttons {
+  padding: 10px 20%;
+}
+button {
+  background: #900;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+}

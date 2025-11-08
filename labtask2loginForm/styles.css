@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.cname>h1>span{
+    color: greenyellow;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(17, 79, 79);
+    color: aliceblue;
+}
+
+.list>#ulindx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+#ulindx>li{
+    padding-left: 10px;
+    
+}
+
+#ulindx>li>a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+ #ulindx>li>a:hover{
+    color:coral;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 200px);
+    padding: 40px 10px;
+}
+.container{
+    background-color: rgb(125, 237, 199);
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    height: 60px;
+}
+
+.info{
+    width: 400px;
+    height: 50%;
+}
+
+table{
+    padding: 10px;
+    text-align: center;
+}
+input[type="text"],
+input[type="password"]{
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+#rm-lebel{
+    padding: 5px;
+    gap: 5px;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(70, 113, 233);
+    margin: 5px 5px;
+}
+
+.containe2{
+    width: 100%;
+     height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.sidemenu,#side-menu-r{
+    width: 30%;
+    border: 2px solid black;
+    height: 50%;
+    padding: 20px;
+}
