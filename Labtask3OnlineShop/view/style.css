@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+   
+}
+
+h1{
+    text-align: center;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: #a2b9bc;
+     border-radius: 10px;
+    padding:10px;
+    text-align: center;
+}
+
+.card:hover{
+    outline: 7px solid yellow;;
+}
+.card2{
+    background-color: #92a8d1;
+}
+.card3{
+    background-color: #80ced6;
+}
+
+img{
+    width: 300px;
+    height: 50%;
+    border-radius: 10px;
+}
+
+button{
+    color: aliceblue;
+    padding: 7px 12px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
