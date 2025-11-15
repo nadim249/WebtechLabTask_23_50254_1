@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Log in Form</title>
+</head>
+
+<body>
+<header>
+    <div class="nav-menu">
+        <div class="cname">
+            <h1>Company<span>X</span></h1>
+        </div>
+        <div class="list">
+            <ul id="ulindx">
+                <li><a href="/home.html" >Home</a></li>
+                <li><a href="/home.html">Login</a></li>
+                <li><a href="">Registration</a></li>
+            </ul>
+        </div>
+    </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="info">
+                <form id="myform">
+                    <fieldset>
+                        <legend>LOGIN</legend>
+                        <table>
+                            <tr>
+                                <td> <label for="name">User Name:</label>
+                                </td>
+                                <td><input type="text" id="namef" name="name">
+                                     <p id="nameErr" style="color:red"></p>
+                                </td>
+                               
+                            </tr>
+                            <tr>
+                                <td> <label for="password">Password:</label>
+                                </td>
+                                <td> <input type="password" id="password" name="password">
+                                    <p id="passwordErr" style="color:red"></p>
+                                </td>
+                                
+                            </tr>
+                        </table>
+
+                        <hr>
+                        <div id="rm-lebel">
+                            <label  for="chk"><input type="checkbox" name="" id="chk">Remember Me</label>
+                        </div>
+                        <br>
+                        <button onclick="formvalidation(event)">Submit</button>
+                        <a href="">Forget Password</a>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <p>Copyright &#169; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
