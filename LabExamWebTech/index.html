@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Global Tech Connect</title>
+</head>
+<body>
+    <div id="nav"><h1>Global Tech Connect</h1></div>
+
+    <div id="container">
+            <table>
+        <tr>
+            <td><label>Full Name :*</label>
+                <p id="nameErr"></p>
+            </td>
+
+            <td><input type="text" name="" id="fname">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label>Email :*</label>
+                <p id="emailErr"></p>
+            </td>
+            <td><input type="email" name="" id="femail">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label>Company :*</label></td>
+            <td><input type="text" name="" id="fcomp">
+            </td>
+            
+        </tr>
+        <tr>
+            <td><label>Attandance Type :</label>
+            <p id="typeerr"></p>
+            </td>
+            <td>
+                <input type="radio" id="virtual-r" value="">
+                <label for="attentype">Virtual</label>
+                <input type="radio" id="inperson-r" value="">
+                <label for="attentype">In-Person</label><br>
+            </td>
+        </tr>
+
+        <tr><td colspan="2" id="btn-td"><button id="btn-sub" onclick="formvalidation()">Submit</button></td></tr>
+    </table>
+    </div>
+
+    <div id="anl-div">
+        <h2>Event Analytics</h2>
+        <button id="btn-anl" onclick="showAnalytics()">Show Event Analytics</button>
+        <div id="info-div">
+        <p>Total Number of Registrants: 10</p>
+        <p>Virtual: 4</p>
+        <p>In-person: 6</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
